@@ -1,11 +1,11 @@
 import random # Here, I imported "random".
 
-min = 100 # Create variable "min" with the specified number.
-max = 150 # Create variable "max" with the specified number.
+minchoice = input("Enter the minimum number and press enter.")
+# Print some text then wait for input.
+maxchoice = float(input("Enter maximum number and press enter."))
+# Print some text then wait for input.
 
-num = random.randrange(min, max) # Get "random", since it is imported.
-# Then create a random range between "min" and "max".
-# And make that all into the "num" variable.
+num = random.randrange(int(minchoice), int(maxchoice)) # Set the number as the inputs.
 
 print("The number is..") # Print "The number is..".
 print(num) # Print the variable "num".
