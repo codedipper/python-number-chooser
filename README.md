@@ -8,5 +8,5 @@ Configure the `min` variable to the desired minimum number.\
 Configure the `max` variable to the desired maximum number.\
 Simple as that.
 ## Notes
-- Code explanation is in the `main.py` file.\
+- Code explanation is in the `main.py` file.
 - You can run the `run.bat` file for easy execution on Windows.
