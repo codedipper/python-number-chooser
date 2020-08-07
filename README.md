@@ -4,8 +4,8 @@ My first Python project!\
 This project uses Python 3.8.5.\
 Older version of Python should work.
 ## Instructions
-Configure the `min` variable to the desired minimum number.\
-Configure the `max` variable to the desired maximum number.\
+Execute the file.\
+Do what the text says.\
 Simple as that.
 ## Notes
 - Code explanation is in the `main.py` file.
