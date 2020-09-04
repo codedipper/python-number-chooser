@@ -11,7 +11,7 @@ maxnum = int(input("[You]: | "))
 
 num = random.randint(minnum, maxnum)
 # Set the "num" variable to require random.
-# And set the randrange from "minnum" to "maxnum".
+# And set the randint from "minnum" to "maxnum".
 
 print("\n[System]: | The number is '", num ,"'.\n")
 # Print some text and attach the "num" variable.
