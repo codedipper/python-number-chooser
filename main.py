@@ -9,7 +9,7 @@ print("\n[System]: | Enter maximum number and press enter.\n")
 maxnum = int(input("[You]: | "))
 # Print some text then wait for input, then set as variable and convert to integer.
 
-num = random.randrange(minnum, maxnum)
+num = random.randint(minnum, maxnum)
 # Set the "num" variable to require random.
 # And set the randrange from "minnum" to "maxnum".
 
