@@ -1,17 +1,12 @@
 from random import randint
-# Import object from module.
+# Import function.
 
-print("[System]: | Enter the minimum number and press enter.\n")
-minnum = int(input("[You]: | "))
-# Print some text then wait for input, then set as variable and convert to integer.
+print("[System]: | Enter the minimum number.\n")
+min_ = int(input("[You]: | "))
 
-print("\n[System]: | Enter maximum number and press enter.\n")
-maxnum = int(input("[You]: | "))
-# Print some text then wait for input, then set as variable and convert to integer.
+print("\n[System]: | Enter the maximum number.\n")
+max_ = int(input("[You]: | "))
+# Print text and wait for input.
 
-num = randint(minnum, maxnum)
-# Set the "num" variable to require an imported function.
-# And choose a random number between "minnum" and "maxnum".
-
-print("\n[System]: | The number is ", num ,".\n")
-# Print some text and attach the "num" variable.
+print("\n[System]: | The number is", randint(min_, max_), ".\n")
+# Print the number.
